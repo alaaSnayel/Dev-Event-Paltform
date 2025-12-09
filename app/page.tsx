@@ -1,3 +1,5 @@
+import ExploreBtn from "./components/ExploreBtn";
+
 const page = () => {
   return (
     <section>
@@ -9,6 +11,8 @@ const page = () => {
       <p className="text-center mt-5">
         Hackathons, Meetups, and Conferences, All in One Place
       </p>
+
+      <ExploreBtn />
     </section>
   );
 };
