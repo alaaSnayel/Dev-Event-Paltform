@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
 
   // PostHog rewrites for ingestion and assets
+  cacheComponents: true,
   images: {
     remotePatterns: [
       {
